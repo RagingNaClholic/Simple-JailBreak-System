@@ -96,6 +96,8 @@ else
 end	
 				if IsControlJustReleased(0, Keys['H']) then
 					TriggerServerEvent('esx_doorlock:hack', mycb)
+
+					TriggerServerEvent('esx_phone:send', "police", "Someone is attempting a jailbreak!", true)
 				end
 				
 				if IsControlJustReleased(0, Keys['E']) then
