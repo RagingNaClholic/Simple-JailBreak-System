@@ -3,7 +3,7 @@ A simple jailbreaking script that allows someone to get broken out of jail by ha
 ORIGINAL BASE MODS I USED (Don't sue me lads): 
 
 1.https://github.com/qalle-fivem/esx-qalle-jail  
-2.https://github.com/mwhitt1985/Hacking-Doorlock 
+2.https://github.com/mwhitt1985/Hacking-Doorlock
 3.https://github.com/GHMatti/FiveM-Scripts/tree/master/mhacking
 4.https://forum.fivem.net/t/release-security-cams/138694
 
