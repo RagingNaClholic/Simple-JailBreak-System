@@ -8,14 +8,14 @@ https://forum.fivem.net/t/release-security-cams/138694
 
 Special thanks to KillaMike and huge special shoutout to LowQualityPlays, without their help and support this project would not have been possible <3  
 
-_**Update**_ *ESX RESOURCE* This is an updated and more finalized, working version of the JailBreak System! This adds locked cells to the Interior of the prison (accessed through the "New Inmate Door" through the main gates on the left side, Watchable security cameras (accessed through the computer in evidence locker under police station), gates that can be hacked with a "keycard", and also automatically Un-Jails someone when they get far enough away from the prison! 
+_**Update**_ *ESX RESOURCE* This is an updated and more finalized, working version of the JailBreak System! This adds locked cells to the Interior of the prison (accessed through the "New Inmate Door" through the main gates on the left side, Watchable security cameras (accessed through the computer in evidence locker under police station), gates that can be hacked with a "keycard", Sends a notification to police when hacking is taking place, and also automatically Un-Jails someone when they get far enough away from the prison! 
 
 _**Feature Summary:**_ 
 
--Hackable Gates
--Prison Interior
--Watchable Security Cameras
--Jail Escapes
+1. Hackable Gates
+2. Prison Interior
+3. Watchable Security Cameras
+4. Jail Escapes
 
 _**Installation:**_
 
