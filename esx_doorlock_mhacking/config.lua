@@ -1,6 +1,6 @@
 Config = {}
 Config.Locale = 'en'
-
+Config.PoliceNumberRequired = 2
 Config.DoorList = {
 
 	--
@@ -333,6 +333,113 @@ Config.DoorList = {
 		size = 0.3
 	},
 
+	--PRISON TEST CELL 1  
+	{ 
+		objName = 'prop_ld_jail_door',
+		objCoords  = {x = 1798.45, y = 2487.14, z = -122.54}, 
+		textCoords = {x = 1798.45, y = 2487.14, z = -122.54},       
+		authorizedJobs = { 'police' },
+		locked = true,
+	},
+
+	{ 
+		objName = 'prop_ld_jail_door',
+		objCoords  = {x = 1795.29, y = 2479.18, z = -122.55}, 
+		textCoords = {x = 1795.29, y = 2479.18, z = -122.55},       
+		authorizedJobs = { 'police' },
+		locked = true,
+	},
+
+	{ 
+		objName = 'prop_ld_jail_door',
+		objCoords  = {x = 1798.45, y = 2479.15, z = -122.54}, 
+		textCoords = {x = 1798.45, y = 2479.15, z = -122.54},       
+		authorizedJobs = { 'police' },
+		locked = true,
+	},
+
+	{ 
+		objName = 'prop_ld_jail_door',
+		objCoords  = {x = 1792.13, y = 2479.21, z = -122.55}, 
+		textCoords = {x = 1792.13, y = 2479.21, z = -122.55},       
+		authorizedJobs = { 'police' },
+		locked = true,
+	},
+
+	{ 
+		objName = 'prop_ld_jail_door',
+		objCoords  = {x = 1788.95, y = 2479.18, z = -122.55}, 
+		textCoords = {x = 1788.95, y = 2479.18, z = -122.55},       
+		authorizedJobs = { 'police' },
+		locked = true,
+	},
+
+	{ 
+		objName = 'prop_ld_jail_door',
+		objCoords  = {x = 1785.79, y = 2479.21, z = -122.55}, 
+		textCoords = {x = 1785.79, y = 2479.21, z = -122.55},       
+		authorizedJobs = { 'police' },
+		locked = true,
+	},
+
+	{ 
+		objName = 'prop_ld_jail_door',
+		objCoords  = {x = 1788.96, y = 2487.11, z = -122.55}, 
+		textCoords = {x = 1788.96, y = 2487.11, z = -122.55},       
+		authorizedJobs = { 'police' },
+		locked = true,
+	},
+
+	{ 
+		objName = 'prop_ld_jail_door',
+		objCoords  = {x = 1792.13, y = 2487.1, z = -122.55}, 
+		textCoords = {x = 1792.13, y = 2487.1, z = -122.55},       
+		authorizedJobs = { 'police' },
+		locked = true,
+	},
+
+	{ 
+		objName = 'prop_ld_jail_door',
+		objCoords  = {x = 1795.29, y = 2487.12, z = -122.56}, 
+		textCoords = {x = 1795.29, y = 2487.12, z = -122.56},       
+		authorizedJobs = { 'police' },
+		locked = true,
+	},
+
+	{ 
+		objName = 'prop_ld_jail_door',
+		objCoords  = {x = 1795.30, y = 2487.12, z = -118.93}, 
+		textCoords = {x = 1795.30, y = 2487.12, z = -118.93},       
+		authorizedJobs = { 'police' },
+		locked = true,
+	},
+
+	{ 
+		objName = 'prop_ld_jail_door',
+		objCoords  = {x = 1792.13, y = 2487.12, z = -118.91}, 
+		textCoords = {x = 1792.13, y = 2487.12, z = -118.91},       
+		authorizedJobs = { 'police' },
+		locked = true,
+	},
+
+	{ 
+		objName = 'prop_ld_jail_door',
+		objCoords  = {x = 1788.96, y = 2487.12, z = -118.93}, 
+		textCoords = {x = 1788.96, y = 2487.12, z = -118.93},       
+		authorizedJobs = { 'police' },
+		locked = true,
+	},
+
+	--Funhouse
+	{
+		objName = 'prop_com_gar_door_01',
+		objCoords  = {x = 1204.56, y = -3110.38, z = 6.60},
+		textCoords = {x = 1204.56, y = -3110.38, z = 6.60},
+		authorizedJobs = { 'CanInc' },
+		locked = true,
+		distance = 9,
+		size = 2
+	},
 	
 
 

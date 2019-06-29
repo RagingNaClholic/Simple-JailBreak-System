@@ -38,7 +38,7 @@ function IsAuthorized(jobName, doorID)
 		end
 	end
 
-	return true 
+	return true
 end
 
 
@@ -49,11 +49,20 @@ AddEventHandler('esx_doorlock:hack', function(mycb)
 	local source = source
 	local xPlayer = ESX.GetPlayerFromId(source)
 	local xPlayers = ESX.GetPlayers()
+	local cops = 0
+		for i=1, #xPlayers, 1 do
+			local xPlayer = ESX.GetPlayerFromId(xPlayers[i])
+			if xPlayer.job.name == 'police' then
+				cops = cops + 1
+			end
+		end
 	
-	
-				if xPlayer.getInventoryItem('keycard').count >= 1 then
-				xPlayer.removeInventoryItem('keycard', 1)
+		if xPlayer.getInventoryItem('keycard').count >= 1 and cops >= Config.PoliceNumberRequired then
+			xPlayer.removeInventoryItem('keycard', 1)
 
-					TriggerClientEvent('esx_doorlock:currentlyhacking', source)
-	end
+			TriggerClientEvent('esx_doorlock:currentlyhacking', source)
+		else
+
+			TriggerClientEvent('esx:showNotification', _source, _U('min_police', Config.PoliceNumberRequired))
+		end
 end)
