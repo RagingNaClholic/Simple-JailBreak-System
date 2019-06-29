@@ -7,7 +7,7 @@ https://github.com/GHMatti/FiveM-Scripts/tree/master/mhacking
 Special thanks to KillaMike and huge special shoutout to LowQualityPlays, without their help and support this project would not have been possible <3  
 *ESX RESOURCE* This is an updated and more finalized, working version of the JailBreak System! This adds locked cells to the Interior of the prison (accessed through the "New Inmate Door" through the main gates on the left side)  and gates that can be hacked with a "keycard" This also automatically Un-Jails someone when they get far enough away from the prison! 
 
-__*Installation:
+_**Installation:
 
 1. Just replace esx-qalle-jail with your current jail resource, 
 2. Add both of them to your server.cfg 
