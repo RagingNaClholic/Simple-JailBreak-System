@@ -1,11 +1,21 @@
 # Simple-JailBreak-System
-A simple jailbreaking script that allows someone to get broken out of jail by hacking the gates and getting far enough away from the prison,  Requires an item in your database (default is "keycard")
+A simple jailbreaking script that allows someone to get broken out of jail by hacking the gates and getting far enough away from the prison, This also adds a prison interior with security cameras. Requires an item in your database (default is "keycard")
 ORIGINAL BASE MODS I USED (Don't sue me lads): 
 https://github.com/qalle-fivem/esx-qalle-jail  
 https://github.com/mwhitt1985/Hacking-Doorlock 
 https://github.com/GHMatti/FiveM-Scripts/tree/master/mhacking
+https://forum.fivem.net/t/release-security-cams/138694
+
 Special thanks to KillaMike and huge special shoutout to LowQualityPlays, without their help and support this project would not have been possible <3  
-*ESX RESOURCE* This is an updated and more finalized, working version of the JailBreak System! This adds locked cells to the Interior of the prison (accessed through the "New Inmate Door" through the main gates on the left side)  and gates that can be hacked with a "keycard" This also automatically Un-Jails someone when they get far enough away from the prison! 
+
+_**Update**_ *ESX RESOURCE* This is an updated and more finalized, working version of the JailBreak System! This adds locked cells to the Interior of the prison (accessed through the "New Inmate Door" through the main gates on the left side, Watchable security cameras (accessed through the computer in evidence locker under police station), gates that can be hacked with a "keycard", and also automatically Un-Jails someone when they get far enough away from the prison! 
+
+_**Feature Summary:**_ 
+
+-Hackable Gates
+-Prison Interior
+-Watchable Security Cameras
+-Jail Escapes
 
 _**Installation:**_
 
