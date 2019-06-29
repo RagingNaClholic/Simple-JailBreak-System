@@ -13,5 +13,5 @@ __*Installation:
 2. Add both of them to your server.cfg 
 
 _**NOTE**_ Some of the cell doors are not locked as I have not had the time to add them but can be easily added in the config folder for esx_doorlock_mhacking, This is not a replacement for regular mhacking but is suggested you dont use regular esx_doorlock, All rights go to the Geniuses at FiveM and Rockstar and the original creators of the mods used as bases, thank you <3
- master
+
 
