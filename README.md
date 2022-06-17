@@ -1,5 +1,5 @@
 # Simple-JailBreak-System
-_**(Dont touch Version2 it wont work and idk how to delete it lmao)**_
+_**(Dont touch Version2 it wont work and idk how to delete it lmao) This is also no longer being supported by me the developer, for any inqury or help visit my stream @ twitch.tv/NaClholic and join the discord**_
 #
 A simple jailbreaking script that allows someone to get broken out of jail by hacking the gates and getting far enough away from the prison, This also adds a prison interior with security cameras. 
 
